@@ -1,0 +1,3 @@
+rootProject.name = "facetime_advice"
+include ':app'
+include ':ff'

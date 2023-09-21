@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <array name="header">-->
+<!--        <item>Play Quiz &amp; Win Upto 50000 Coins</item>-->
+<!--        <item>Quiz for 15000 Coins calling you!</item>-->
+<!--        <item>Pool prize is 50000 coins</item>-->
+<!--        <item>Tap here &amp; grab your share of 15000 coins now!</item>-->
+<!--        <item>Aaj Math Quiz khela kya?</item>-->
+<!--        <item>Who was the first president of India?</item>-->
+<!--        <item>Time to Win Now!</item>-->
+<!--        <item>Innings for 50000 coins</item>-->
+<!--        <item>Prize Pool: 50000 Coins| No install required</item>-->
+<!--        <item>Jeeto 10000 Coins</item>-->
+<!--        <item>Tech quiz for 50000 coins open</item>-->
+<!--        <item>Mega quiz for 500000 coins live</item>-->
+<!--        <item>Mega quiz for 500000 coins open</item>-->
+<!--        <item>Jeeto 10000 Coins Abhi!</item>-->
+<!--        <item>Learn and Win daily.</item>-->
+<!--    </array>-->
+<!--    <array name="body">-->
+<!--        <item>Come play Cricket contests running for 50	000 Coins daily.</item>-->
+<!--        <item>No install required! Play Now</item>-->
+<!--        <item>Play Qureka GK quiz to win now</item>-->
+<!--        <item>Sharpen your Cricket knowledge &amp; win now</item>-->
+<!--        <item>Play GK quiz increase your knowledge &amp; WIN</item>-->
+<!--        <item>Play and win coins no</item>-->
+<!--        <item>Play History Quiz &amp; win coins now</item>-->
+<!--        <item>Play Bollywood Quizzes &amp; win coins daily</item>-->
+<!--        <item>IPL Quiz Khelo aur Jeeto coins. No install required.</item>-->
+<!--        <item>Play IPL contest! Khelo aur jeeto.</item>-->
+<!--        <item>Show your Math knowledge &amp; Win Now</item>-->
+<!--        <item>Test your tech skills &amp; win now</item>-->
+<!--        <item>Play now &amp; win some coins. No install required.</item>-->
+<!--        <item>Your chance of winning is high here! Play Now</item>-->
+<!--        <item>Play GK Math &amp; other quizzes &amp; Win Now</item>-->
+<!--    </array>-->
+
+
+
+    <array name="header">
+
+        <item>Play GK Quiz &amp; Win Upto 50000 Coins</item>
+        <item>IPL quiz for 500000 coins open</item>
+        <item>Test Your Tech Skills</item>
+        <item>Cricket quiz for 500000 coins live</item>
+        <item>IPL Innings for 50000 coins</item>
+        <item>Time to Win Now!</item>
+        <item>Aaj GK Quiz khela kya?</item>
+        <item>Cricket quiz for 50000 coins win</item>
+        <item>Cricket Innings for 50000 coins</item>
+        <item>Jeeto 50000 Coins Abhi!</item>
+
+    </array>
+
+
+    <array name="body">
+        <item>Play GK quiz increase your knowledge &amp; WIN</item>
+        <item>Play IPL contest! Khelo aur jeeto.</item>
+        <item>Play Tech quiz and earn upto 15,000 coins</item>
+        <item>Come play Cricket contests running for 50	000 Coins daily.</item>
+        <item>IPL Quiz Khelo aur Jeeto coins. No install required.</item>
+        <item>Play now &amp; win some coins. No install required.</item>
+        <item>Play GK Math &amp; other quizzes &amp; Win Now</item>
+        <item>Your chance of winning 50	000 Coins is high here! Play Now</item>
+        <item>Play Cricket quizzes now &amp; win some coins. No install required.</item>
+        <item>Test your tech skills &amp; win 50 000 Coins now</item>
+
+    </array>
+</resources>

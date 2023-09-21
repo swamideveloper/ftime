@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundAdsColor">#F3F3F3</color>
+
+    <color name="gray">#40000000</color>
+
+    <color name="chormecolor">#5E349A</color>
+
+    <color name="white">#ffffffff</color>
+
+    <color name="app_color">#E12323</color>
+
+    <color name="lightGrey">#8C8C8C</color>
+
+    <color name="black">#ff000000</color>
+    <color name="ad_button_green">#4286F5</color>
+</resources>

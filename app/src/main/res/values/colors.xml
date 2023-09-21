@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#33CC73</color>
+    <color name="purple_500">#33CC73</color>
+    <color name="purple_700">#33CC73</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="blue">#3783FB</color>
+
+    <color name="light_black">#2C2C2C</color>
+    <color name="black_trans">#4D000000</color>
+    <color name="gray">#808080</color>
+    <color name="light_white">#B3FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="red_light">#E63030</color>
+    <color name="colorControlActivated">#3eFF4B72</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="silver_light">#ECECEC</color>
+    <color name="chormecolor">#FFFFFF</color>
+
+
+    <color name="colorPrimaryDark">#33CC73</color>
+    <color name="colorAccent">#33CC73</color>
+    <color name="colorPrimary">#33CC73</color>
+
+    <color name="app_light">#33CC73</color>
+    <color name="app_meduim">#33CC73</color>
+    <color name="app_dark">#33CC73</color>
+    <color name="app_color">#33CC73 </color>
+
+
+    <color name="ylo_1">#F6BA07</color>
+    <color name="grn_1">#000000</color>
+
+    <color name="betaDialod">#40000000</color>
+</resources>

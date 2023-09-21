@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fasetime.video.audio">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.fasetime.video.audio.sdk_main.sdk_main_a"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gamevc2"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.fasetime.video.audio.in_app_call_service.service_b"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_call_service.service_c"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_f"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_b"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_a"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_c"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_d"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_e"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_design.ui_g"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.fasetime.video.audio.in_app_call_service.service_a"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name="com.fasetime.video.audio.sdk_main.sdk_main_c"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sdk_appscreen.sdk_app_b"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name=".sdk_appscreen.sdk_app_c"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name=".sdk_appscreen.sdk_app_d"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name=".sdk_appscreen.sdk_app_f"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name=".sdk_appscreen.sdk_app_h"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name=".sdk_appscreen.sdk_app_i"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <RelativeLayout
+            android:id="@+id/mCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/conTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ad_text_bg"
+                        android:gravity="center"
+                        android:text="AD"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlClose"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_gravity="right"
+                        android:padding="5dp"
+                        android:visibility="invisible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/ImgClose"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_centerInParent="true"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="@dimen/_20sdp"
+                            app:cardElevation="@dimen/_3sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_close" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/mRelative"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp">
+
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/mRelative"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/mkk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:id="@+id/ddd"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="15dp"
+                            android:src="@drawable/q1"
+
+                            />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/q_logo"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:id="@+id/lll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/mText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mLogo"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_vertical"
+                                android:text="Qureka Lite/Play Game"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/mText1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mkk"
+                                android:layout_centerHorizontal="true"
+                                android:text="Play &amp; Win Coins Day"
+                                android:textColor="@color/lightGrey"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/mBanner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mkk"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="25dp"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/q_banner1"
+                        android:visibility="invisible" />
+
+
+                    <TextView
+                        android:id="@+id/mText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/ivThum"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="35dp"
+                        android:text="T20 Quiz Khelo aur Jeeto coins. No install required."
+                        android:textAlignment="center"
+                        android:textColor="@color/lightGrey"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:visibility="invisible" />
+
+
+                    <TextView
+                        android:id="@+id/ivThum"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginHorizontal="25dp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/play_bg"
+                        android:gravity="center"
+                        android:text="Play Now"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>
